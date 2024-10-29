@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sviluppo di una pagina web - Blog Epicode</title>
+    <link rel="stylesheet" href="assets/Css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/img/logo.svg" alt="logo epicode" width="150px" />
+        <h3>Epicode - Il blog dei developers</h3>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="Es_osauwa2.html" title="Home">Home</a>
+          </li>
+          <li>
+            <a href="javascript:void(0)" title="articoli">Articoli</a>
+          </li>
+          <li>
+            <a href="avascript:void(0)" title="Jobs">Lavora con Noi</a>
+          </li>
+        </ul>
+      </nav>
+      <hr />
+    </header>
+    <main>
+      <h2>Come creare un tamplate per i post</h2>
+      <p>di Mario Rossi - pubblicato il 25/10/2020</p>
+      <p>
+        La prima cosa da fare è suddividere in blocchi logici la pagina,
+        identificando le parti comuni da applicare a tutte le pagine
+      </p>
+      <p>Le varie aree saranno quindi suddivise in:</p>
+      <ul>
+        <li>Contenuti di intestazione del tag <code>&lt;header&gt;</code></li>
+        <li>
+          Contenuti centrali variabili del tag <code>&lt;main&gt;</code> (corpo
+          principale)
+        </li>
+        <li>
+          Contenuti di fine pagina comuni, da inserire nel tag
+          <code>&lt;footer&gt;</code>
+        </li>
+      </ul>
+      <h2>Formattazione del codice</h2>
+      <p>
+        Il testo dell'articolo dovrà essere formattato per identificare tutte le
+        parti da selezionare con i CSS. Perciò i passi saranno:
+      </p>
+      <ol>
+        <li>
+          Progettare il markup assegnando ad ogni specifico testo il tag
+          appropriato
+        </li>
+        <li>
+          Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il
+          basso
+        </li>
+        <li>Applicare gli stili CSS</li>
+      </ol>
+      <p>
+        L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la
+        diffusione pressoché totale.
+      </p>
+      <section>
+        <table>
+          <caption>
+            Diffusione dei CSS
+          </caption>
+          <thead>
+            <tr>
+              <th>Anno</th>
+              <th>% di utilizzo</th>
+              <th>Supporto browser</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2000</td>
+              <td>20%</td>
+              <td>17%</td>
+            </tr>
+            <tr>
+              <td>2002</td>
+              <td>35%</td>
+              <td>22%</td>
+            </tr>
+            <tr>
+              <td>2004</td>
+              <td>45%</td>
+              <td>42%</td>
+            </tr>
+            <tr>
+              <td>2008</td>
+              <td>80%</td>
+              <td>51%</td>
+            </tr>
+            <tr>
+              <td>2012</td>
+              <td>100%</td>
+              <td>76%</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <p>
+        Un test di validazione potrà essere fatto tramite il tool online
+        <a
+          href="https://jigsaw.w3.org/css-validator/"
+          title="Link"
+          target="_blank"
+          >tool Online</a
+        >
+        dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il
+        nostro obiettivo ed essere stati dei veri developers come loro:
+      </p>
+      <iframe
+        width="300"
+        height="320"
+        src="https://www.youtube.com/embed/Bd_Nmoo8qRE?si=lhAA7IN1fyYbyqId"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h2>Novita</h2>
+      <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
+      <form method="get" action="iscrizione.html">
+        <label for= "email">email</label>
+        <input type="email" id="email" placeholder="Inserisci email"/>
+        <button type="submit" id="iscrizione">Iscriviti</button>
+    </main>
+  </body>
+</html>
